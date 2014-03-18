@@ -6,7 +6,7 @@ import time
 pomodoroName = sys.argv[1]
 print pomodoroName
 
-url = 'https://www.beeminder.com/api/v1/users/zinbiel/goals/pomodoro/datapoints.json'
+url = 'https://www.beeminder.com/api/v1/users/zinbiel/goals/pom/datapoints.json'
 data = {}
 data["auth_token"] = "GyCzXFnDQNMmBPqSwWDb"
 data["timestamp"] = time.time()
